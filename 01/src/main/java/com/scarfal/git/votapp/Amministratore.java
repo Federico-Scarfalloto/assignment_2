@@ -2,7 +2,7 @@ package com.scarfal.git.votapp;
 
 public class Amministratore {
 	//FIELDS
-	private String mail, username, psw;
+	private String mail, username, password;
 	private String name, surname;
 	private int bday, bmonth, byear;
 	
@@ -10,7 +10,7 @@ public class Amministratore {
 	public Amministratore() {
 		mail="mail@mail.com";
 		username="username";
-		psw="password";
+		password="password";
 		name="guest";
 		surname="guest";
 		bday= 1;
@@ -21,7 +21,7 @@ public class Amministratore {
 	public Amministratore(String mail,String username,String psw,String name,String surname,int bday,int bmonth,int byear) {
 		this.mail = mail;
 		this.username=username;
-		this.psw=psw;
+		this.password=psw;
 		this.name=name;
 		this.surname=surname;
 		this.bday=bday;
