@@ -27,6 +27,9 @@ public class Elettore {
 	}
 	
 	//METHODS
+	public String getInfo() {
+		
+	}
 	public boolean vote() {
 		return false;
 	}
